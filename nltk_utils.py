@@ -8,6 +8,10 @@ from nltk.stem.porter import PorterStemmer
 stemmer = PorterStemmer()
 
 def tokenize(sentence):
+    """
+    Split sentence into array of words/tokens
+    e.g. "Hello, how are you?" --> ["Hello", "how", "are", "you", "?"]
+    """
     return nltk.word_tokenize(sentence)
     
 def stem(word):

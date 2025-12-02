@@ -2,6 +2,9 @@ import torch
 import torch.nn as nn
 
 class NeuralNet(nn.Module):
+    """
+    A simple feedforward neural network with two hidden layers.
+    """
     def __init__(self, input_size, hidden_size, num_classes):
         super(NeuralNet, self).__init__()
         self.l1 = nn.Linear(input_size, hidden_size)
@@ -10,6 +13,9 @@ class NeuralNet(nn.Module):
         self.relu = nn.ReLU()
 
     def forward(self, x):
+        """"
+        Forward pass of the neural network.
+        """
         out = self.l1(x)
         out = self.relu(out)
         out = self.l2(out)

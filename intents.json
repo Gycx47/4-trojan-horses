@@ -46,7 +46,9 @@
     {
       "tag": "search",
       "patterns": [
-        "1234567890",
+        "Search",
+        "Find",
+        "Look up",
         "How",
         "Why",
         "When",
