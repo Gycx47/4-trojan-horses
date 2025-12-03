@@ -14,3 +14,16 @@ while True:
     else:
         break
 
+from google import genai
+
+client = genai.Client(api_key=)
+
+while True:
+    user_input = input("You: ")
+    if user_input.lower() == "exit":
+        break
+    response = client.models.generate_content(
+        model="gemini-2.0-flash",
+        contents=user_input
+    )
+    print(f"\nHaL: {response.text}")
