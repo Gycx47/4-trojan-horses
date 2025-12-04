@@ -18,6 +18,6 @@ HERE ARE SOME OF THE STUFF YOU ASK THE CHATBOT <3
 - what are healthy swaps i can do?
 - are detox diets healty?
 - Help me lose weight?
-  Basically if you want to DEBUNK MISINFO, NEED RELEVANT AND ACCURATE INFO, this friendly AI chatbot is at your service.
+Basically if you want to DEBUNK MISINFO, NEED RELEVANT AND ACCURATE INFO, this friendly AI chatbot is at your service.
 
-By Joy Blessi, Glenn, Kellyn, Aaraya
+By Joy Blessi, Glenn, Kellyn, Araya
