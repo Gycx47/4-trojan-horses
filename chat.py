@@ -46,11 +46,6 @@ while True:
         for intent in intents["intents"]:
             if tag == intent["tag"]:
                 print(f"{bot_name}: {random.choice(intent['responses'])}")    
-                #if tag == "search":
-                    #print(f"Do you want me to search for {sentence}")
-                    #print(f"{bot_name}: The answers I found are: some response")
-                    #pass
-                #else:
-                    #print(f"{bot_name}: {random.choice(intent['responses'])}")
+                break
     else:
         print(f"{bot_name}: I do not understand...")
