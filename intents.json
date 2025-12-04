@@ -9,7 +9,7 @@
         "Is anyone there?",
         "Hello",
         "Good day"
-      ], 
+      ],
       "responses": [
         "Hey 👋",
         "Hi there, what can I do for you?",
@@ -18,7 +18,11 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
       "responses": [
         "See you later, goodbye.",
         "Goodbye! Have a nice day.",
@@ -27,11 +31,130 @@
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "myth_carbs",
+      "patterns": [
+        "Are carbs bad for you?",
+        "Carbs make you fat, right?",
+        "Should I cut out carbs?",
+        "Low carb is healthier, right?"
+      ],
+      "responses": [
+        "Carbs aren't bad at all! They're your body's main source of energy. What matters is the type of carbs. Whole grains, fruits, and vegetables support health, while processed carbs should be limited.",
+        "You don't need to cut carbs. Balanced, high-fibre carbs actually help with weight management and energy levels."
+      ]
+    },
+    {
+      "tag": "myth_detox",
+      "patterns": [
+        "Do detox teas work?",
+        "Can detox diets remove toxins?",
+        "Should I use detox tea?",
+        "Are detox drinks healthy?"
+      ],
+      "responses": [
+        "Detox teas don't remove toxins, your liver and kidneys already do that naturally! Many detox products are just marketing. A balanced diet and hydration support your body far better.",
+        "No tea or juice can 'cleanse' toxins. But I can help you learn what actually supports your body's natural detox systems!"
+      ]
+    },
+    {
+      "tag": "myth_fats",
+      "patterns": [
+        "Is fat unhealthy?",
+        "Should I avoid all fats?",
+        "Does eating fat make you fat?"
+      ],
+      "responses": [
+        "Healthy fats, like those from nuts, seeds, avocados, and olive oil, are essential for your brain and hormones. It's processed trans fats you need to avoid.",
+        "Eating fat doesn't automatically make you gain fat, overeating calories does. Healthy fats can actually keep you full longer!"
+      ]
+    },
+    {
+      "tag": "myth_protein",
+      "patterns": [
+        "Do I need lots of protein?",
+        "Is more protein always better?",
+        "How much protein should I eat?"
+      ],
+      "responses": [
+        "Protein is important, but more isn't always better. Most people meet their needs without supplements. Your optimal amount depends on your age, activity level, and goals.",
+        "You don't need extreme protein intakes. Balanced meals usually provide enough!"
+      ]
+    },
+    {
+      "tag": "personal_goal_weightloss",
+      "patterns": [
+        "I want to lose weight",
+        "How can I lose weight?",
+        "Give me weight loss tips",
+        "Help me lose weight"
+      ],
+      "responses": [
+        "Healthy weight loss comes from sustainable habits, like portion balance, more whole foods, and regular movement. What does your current eating pattern look like?"
+      ]
+    },
+    {
+      "tag": "personal_goal_muscle",
+      "patterns": [
+        "I want to build muscle",
+        "How do I gain muscle?",
+        "Foods for muscle growth?",
+        "Help me get stronger"
+      ],
+      "responses": [
+        "To build muscle, aim for a balance of protein, carbs, and strength training. Lean meats, beans, eggs, tofu, and yoghurt are great choices!",
+        "Muscle growth needs consistent training and enough calories"
+      ]
+    },
+    {
+      "tag": "healthy_swaps",
+      "patterns": [
+        "Give me healthy swaps",
+        "Healthier alternatives",
+        "What's a healthier version of junk food?",
+        "Swap unhealthy foods"
+      ],
+      "responses": [
+        "Try these swaps: sugary cereal to oats, soda to sparkling water, chips to nuts or air-popped popcorn, white rice to brown rice or quinoa."
+      ]
+    },
+    {
+      "tag": "nutrition_facts",
+      "patterns": [
+        "Give me a nutrition fact",
+        "Tell me something interesting about food",
+        "Fun nutrition fact",
+        "Teach me something"
+      ],
+      "responses": [
+        "Fun fact: Fibre feeds your gut bacteria, which supports immunity and mood!",
+        "Did you know? Whole fruits keep you fuller longer than fruit juice because of the fibre."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "???",
+        "I don't understand",
+        "What?",
+        "That did not help"
+      ],
+      "responses": [
+        "Hmm, I'm not sure what you mean. Could you say it in another way?",
+        "I didn't catch that, want to ask me about a food myth or nutrition topic?"
+      ]
     }
-    
-   
   ]
 }
-
